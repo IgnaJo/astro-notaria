@@ -9,8 +9,15 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/react": "^4.1.0",
     "@astrojs/tailwind": "^5.1.2",
-    "astro": "^4.16.16"
+    "@supabase/supabase-js": "^2.47.3",
+    "@types/react": "^19.0.1",
+    "@types/react-dom": "^19.0.2",
+    "astro": "^4.16.16",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-toastify": "^11.0.2"
   },
   "devDependencies": {
     "tailwindcss": "^3.4.15"
