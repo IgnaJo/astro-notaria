@@ -1,41 +1,49 @@
 ---
+import conservador from '../assets/cbrs.png'
+import diarioOficial from '../assets/diarioOficial.png'
+import registroCivil from '../assets/registroCivil.png'
+import Sii from '../assets/sii.png'
+import tesoreria from '../assets/tesoreria.png'
+import notarios from '../assets/notariosConservadores.png'
+import poderJudicial from '../assets/poderJudicial.png'
+
 const PAGES = [
   {
     name:"cbrs",
     link: "https://www.conservador.cl/portal/",
-    logo: "/src/assets/cbrs.png"
+    logo: conservador
 
   },
   {
     name:"Diario Oficial",
     link: "https://www.diariooficial.interior.gob.cl/#close",
-    logo: "/src/assets/diarioOficial.png"
+    logo: diarioOficial
   }
   ,
   {
     name:"Registro Civil",
     link: "https://www.registrocivil.cl/",
-    logo: "/src/assets/registroCivil.png"
+    logo: registroCivil
   },
   {
     name:"SII",
     link: "https://homer.sii.cl/",
-    logo: "/src/assets/sii.png"
+    logo: Sii
   },
   {
     name:"Tesorería",
     link: "https://www.tgr.cl/",
-    logo: "/src/assets/tesoreria.png"
+    logo: tesoreria
   },
   {
     name:"Notarios y Conservadores",
     link: "https://notariosyconservadores.cl/",
-    logo: "/src/assets/notariosConservadores.png"
+    logo: tesoreria
   },
   {
     name:"Poder Judicial",
     link: "https://www.pjud.cl/",
-    logo: "/src/assets/poderJudicial.png"
+    logo: poderJudicial
   }
 ]
 ---
@@ -56,7 +64,7 @@ const PAGES = [
           <div class="flex justify-between items-center gap-x-3">
             <div class="grow">
               <div class="flex items-center gap-x-3">
-                <img class="size-125 rounded-2" src={logo} alt="Avatar">
+                <img class="size-125 rounded-2" src={logo.src} alt="Avatar">
                 <div class="grow">
                   
                 </div>

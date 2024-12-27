@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { supabase } from '../lib/supabase'
 import { toast, ToastContainer } from 'react-toastify'
+import backgroundFrame from '../assets/iframe-backgroundwebp.webp'
 
 const ValidateDocumentForm = () => {
 
@@ -111,7 +112,7 @@ const ValidateDocumentForm = () => {
   {/* Imagen de fondo previa a la búsqueda */}
   <img 
     class={`absolute top-0 left-0 w-full h-full object-cover rounded-lg transition-opacity duration-300 ${isLoading ? "blur-sm opacity-70" : "opacity-100"}`} 
-    src="src/assets/iframe-backgroundwebp.webp" 
+    src={backgroundFrame.src}
     alt="Fondo de búsqueda" 
   />
 
