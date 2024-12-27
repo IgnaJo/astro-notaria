@@ -13,17 +13,17 @@ const  { title } = Astro.props;
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" type="image/svg+xml" href="/favicon (1).svg" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 	</head>
-	<body>
+	<body class="flex flex-col min-h-screen">
 		<Navbar />
-		<main >
+		<main class="flex-grow">
 				<slot/>
 			</main>
 		
-		<Footer />
+		<Footer loading="lazy"/>
 	</body>
 </html>
 

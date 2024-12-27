@@ -15,6 +15,7 @@
     "@types/react": "^19.0.1",
     "@types/react-dom": "^19.0.2",
     "astro": "^4.16.16",
+    "flowbite": "^2.5.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-toastify": "^11.0.2"

@@ -69,8 +69,8 @@ const ContactoForm = () => {
           <textarea id="message" name="message" onChange={(e)=>{setMessage(e.target.value)}} value={message} class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out" required></textarea>
         <ToastContainer />
         </div>
-        <button type='submit' class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Enviar</button>
-        <p class="text-xs text-gray-500 mt-3">Nos contactaremos por la dirección de correo</p>
+        <button type='submit' class="text-white bg-primary border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Enviar</button>
+        <p class="text-xs text-gray-500 mt-3">Nos pondremos en contacto a la brevedad.</p>
         </form>
       </div>
     </div>
